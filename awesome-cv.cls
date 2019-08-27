@@ -403,7 +403,7 @@
       \@lastname
     }
     \\
-    \vspace{1.25em}
+    \vspace*{1em}
     \ifthenelse{\isundefined{\@position}}{}{\headerpositionstyle{\@position\\}}
     \vspace{0.4mm}
     \ifthenelse{\isundefined{\@address}}{}{\headeraddressstyle{\@address\\}}
@@ -502,7 +502,7 @@
       {}
       {\vspace{6.0mm}\headerquotestyle{\@quote\\}\vspace{5.0mm}}
   \end{center}
-  \vspace*{2mm}
+  \vspace*{0.5em}
 }
 
 % Define a footer for CV
