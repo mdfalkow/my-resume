@@ -103,7 +103,7 @@
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+\geometry{left=1.5cm, top=1.5cm, right=1.5cm, bottom=1.5cm, footskip=.5cm}
 
 %% Header & Footer
 % Set offset to each header and footer
@@ -615,7 +615,7 @@
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-    \multicolumn{2}{L{17cm}}{\vspace{2pt}\descriptionstyle{#5}}
+    \multicolumn{2}{L{\textwidth - 2ex}}{\vspace{2pt}\descriptionstyle{#5}}
   \end{tabular*}
 }
 
@@ -668,7 +668,7 @@
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l L{\textwidth * \real{0.9}}}
 }{%
     \end{tabular*}
   \end{center}
