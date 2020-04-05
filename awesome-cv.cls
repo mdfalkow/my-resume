@@ -401,7 +401,7 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{3mm}
+\newcommand{\acvSectionTopSkip}{2mm}
 \newcommand{\acvSectionContentTopSkip}{2mm}
 
 
@@ -664,7 +664,6 @@
 % Define an environment for cvskill
 \newenvironment{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-2.0mm}
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
@@ -689,7 +688,7 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-2.0mm}
+  \vspace{-4.0mm}
 }
 
 
